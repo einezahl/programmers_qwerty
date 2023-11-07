@@ -43,3 +43,14 @@ Add a new keyboard layout
 Select English (United States) or a different parent keyboard layout that you chose and
 add English (Real Programmers QWERTY).
 ![Layout Selection](layout_selection.png)
+
+## Swap Escape and Caps Lock
+I have tried to swap escape and caps lock by swapping the keys in the layout definition
+but have encountered the problem that the caps lock key now performed both escape and caps 
+lock. Therefore to switch caps lock and escape install dconf-editor
+```
+sudo apt install dconf-editor
+```
+Open the editor and go to ```/org/gnome/desktop/inpt-sources/xkb-options``` and add
+```'caps:swapescape'``` to Custom value
+![Dconf Editor Swap Escape and Caps](dconf_swap_escape.png)
