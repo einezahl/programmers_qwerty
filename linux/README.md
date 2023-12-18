@@ -4,7 +4,7 @@ The keyboard mappings defined in ```real-programmers-qwerty``` have to be insert
 the keyboard layout system definitions. For this open the layouts for the US keyboard
 by running
 ```
-sudo vim /usr/share/X11/xkb/symbols
+sudo vim /usr/share/X11/xkb/symbols/us
 ```
 And add the content of ```real-programmers-qwerty``` to that file somewhere after the definition
 of the defaul US keyboard. Then tell the system about the existence of the new layout by
