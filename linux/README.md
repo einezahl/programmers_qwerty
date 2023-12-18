@@ -12,7 +12,7 @@ modifying evdev.xml by running
 ```
 sudo vim /usr/share/X11/xkb/rules/evdev.xml
 ```
-Searh for "English" and you should find the default english keyboard
+Search for "English" and you should find the default english keyboard
 ```xml
 <layoutList>    
     <layout>
